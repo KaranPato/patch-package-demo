@@ -25,8 +25,7 @@
             "styles": [
               "src/styles.css",
               "node_modules/font-awesome/css/font-awesome.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "ui_modules/@circlon/angular-tree-component/css/angular-tree-component.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
