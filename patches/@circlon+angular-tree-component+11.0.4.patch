@@ -2934,18 +2934,20 @@ index 0000000..14dc5a9
 +{"version":3,"file":"circlon-angular-tree-component.d.ts","sources":["circlon-angular-tree-component.d.ts"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","sourcesContent":["/**\r\n * Generated bundle index. Do not edit.\r\n */\r\nexport * from './public-api';\r\nexport { action as ɵb, actionInternal as ɵa, computed as ɵc, observable as ɵd } from './lib/mobx-angular/mobx-proxy';\r\nexport { TreeMobxAutorunDirective as ɵe } from './lib/mobx-angular/tree-mobx-autorun.directive';\r\n"]}
 \ No newline at end of file
 diff --git a/node_modules/@circlon/angular-tree-component/css/angular-tree-component.css b/node_modules/@circlon/angular-tree-component/css/angular-tree-component.css
-index 3bbf4b8..55e018c 100644
+index 3bbf4b8..b82fdf6 100644
 --- a/node_modules/@circlon/angular-tree-component/css/angular-tree-component.css
 +++ b/node_modules/@circlon/angular-tree-component/css/angular-tree-component.css
-@@ -29,7 +29,7 @@
+@@ -29,8 +29,8 @@
  }
  .node-content-wrapper {
    display: inline-block;
 -  padding: 2px 5px;
+-  border-radius: 2px;
 +  padding: 12px 15px;
-   border-radius: 2px;
++  border-radius: 20px;
    transition: background-color .15s,box-shadow .15s;
  }
+ .node-wrapper {display: flex; align-items: flex-start;}
 @@ -72,10 +72,10 @@ tree-root .angular-tree-component-rtl {
    direction: rtl;
  }
